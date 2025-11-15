@@ -543,8 +543,8 @@ Scenario('Convert PDF, Validate JSON, and Open Browser', async () => {
   I.amOnPage('/');
   I.see("ZERO TOLERANCE TOWARDS FRAUD!");
   I.wait(10);
-  I.fillField(LOCATORS.login.username, 'bullethealthcare@investigator.com');
-  I.fillField(LOCATORS.login.password, 'Bullet@0408');
+  I.fillField(LOCATORS.login.username, '');
+  I.fillField(LOCATORS.login.password, '');
   I.wait(30);
 
   I.click(LOCATORS.searchbar.searchicon);
